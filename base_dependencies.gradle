@@ -1,0 +1,18 @@
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
+
+    // androidx
+    implementation androidx.appcompat
+    implementation androidx.constraintlayout
+
+    // ktx
+    implementation ktx.core
+
+    // UI
+    implementation ui.material
+}
