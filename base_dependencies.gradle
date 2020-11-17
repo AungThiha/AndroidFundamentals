@@ -15,4 +15,6 @@ dependencies {
 
     // UI
     implementation ui.material
+
+    implementation timber
 }
